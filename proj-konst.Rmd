@@ -1,0 +1,111 @@
+---
+title: "Proj-konst"
+author: "Zander Smith"
+date: "8/30/2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Proj-konst
+
+## Oorsig
+
+Hierdie projek (en dokument) beskryf en verskaf 'n projek konstitusie en raamwerk vir die bestuur en koordineering van 'n projek asook die verdeling van winste tussen deelnemers aan die projek.
+
+## Doelwitte
+
+Die hoofdoelwit van die projek is om 'n beter alternatief te bied tot die dominante bestuursmodel (hierargies, gesentraliseerd, autokraties, ondeursigtig, eksklusief, rigied, onregverdig).
+Die ontwerpsdoelwitte vir die projek-konstitusie is daarvolgens om 'n raamwerk te skep wat:
+* gedesentraliseerd is, met 'n projek-sentriese netwerk stuktuur (in plaas van 'n hierargiese bestuur-sentriese struktuur)
+
+* maksimum deursigtigheid bied ten opsigte van besluitneming en verdeling van projek winste
+
+* maksimum buigsaamheid en aanpasbaarheid bied vir deelnemers
+  + deelnemers in staat stel om bydraes te maak wanneer en van waar hulle pas
+  + die konstitusie bied sinvolle aanvangs parameters, maar kan self aangepas word (voorbeelde aanpasbare waardes word beklemtoon in vet skrif)
+  + deelnemers besluit self watter projekte om aan deel te neem en hoeveel hulle wil bydrae
+
+* ontwerp vir inklusiewiteit deur alle projek aanvanklik oop te maak vir enige nuwe deelnemers
+  + deelnemers kan later veranderinge maak aan die projek konstitusie sodat nuwe lede eers 'n observasie periode moet deurnaam (waartydens hul geen stemreg het of deelneem in winsverdeling nie)
+  + deelnemers kan soortgelyk ook die projek status verander na geslote, en slegs nuwe lede inneem deur uitnodiging
+
+* regverdige verdeling van projek winste (tussen besluitnemers en ander)
+
+* belyning van vergoeding insentiewe en projek doelwitte om projek sukses te bevorder
+
+## Besluitneming struktuur
+
+In teenstelling met die hierargiese korporatiewe struktuur van die huidige dominante bestuursmodel, is daar slegs twee klasse van deelnemers in elke projek : besluitnemers en nie-besluitnemers.
+Indien nodig, kan projekte sub-projekte vorm om hul te ondersteun en sodoende voordele van die hierargiese struktuur herwin.
+Op 'n gereelde basis (elke **6 maande**) orden elke deelnemer alle ander deelnemers na gelang van hul projek bydraes, besluitneming vermoe asook hul vermoe om die projek te lei.
+Die deelnemers wat die meeste punte verwerf uit die ordenings proses en beskikbaar is word sodoende die besltuinemers vir die projek.
+'n Projek met $n$ besluitnemers sal **$floor(sqrt(n))+1?$** beluitnemende deelnemers he. Die aantal besluitnemers is dan 'n klein subgroep van deelnemers. Die addisionele een besluitnemer is daar om te verseker dat die aantal besluitnemers 'n onewe aantal is.
+Die is in die belang van alle deelnemers dat die mees bekwame deelnemers verkies word tot besluitnemers.
+Die ordeningsprosedure word onder verder verduidelik.
+Om die kwaliteit en responsiwiteit van besluitneming en beplanning hoog te hou sal meeste operasionele projek besluite deur 'n meerderheid stem van hierdie groep gemaak word.
+Daar is egter uitsonderings: veranderinge tot die projek konstitusie (hierdie dokument) verg die goedkeuring van 'n meerderheid van alle deelnemers.
+Verantwoordelikhede van die besluitnemingspan sluit in:
+
+* Bepaling van projek doelwitte
+
+* Beplanning (langtermyn tematies/strategies asook korttermyn operasioneel/takties)
+
+* Ontwerp van die projekstruktuur (asook veranderinge tot die konstitusie)
+
+* Kontrole oor uitgawes, projek hulpbronne en goedkeur van tyd-bydrae rekords
+
+## Projek administrateur
+
+Die nie-besluitnemende projek deelnemer met die hoogste aantal stemme word by verstek die projek adminstrateur. Indien daardie deelnemer nie beskikbaar is om die rol van administrateur te vervyl nie val die rol op die daaropvolgende deelnemer.
+Verantwoordelikhede van die administrateur sluit in:
+
+* Uitvoer van die stemprosedure om besluitneming span te verkies
+
+* Voorbereiding van agenda, en die neem van notules van vergaderings
+
+* Beheer oor projekdokumente (insluitende weergawe bestuur) asook tyd-bydrae rekords
+
+* Tree as tussenganger op tussenbesluitnemende en nie-besluitnemende deelnemers.
+
+* Boekhou en uitvoer van projekwins verdeling
+
+## Besluitneming
+
+Besluitneming geskied op grond van meerderheids ooreenskoms tussen die besluitnemers.
+
+## Stemproses
+
+Gedurende die stemproses moet elke deelnemer die ander deelnemers orden na gelang van hul bydraes, besluitnemings vermoens asook hul vermoe om die spesifieke projek te lei.
+Om binnegevegte tot 'n mimimum te hou, sal die stemproses annoniem verskied en deur die administrateur uitgevoer word.
+Byvoorbeeld, in 'n projek met 5 deelnemers (A, B, C, D, E) sal daar drie besluitnemende deelnemers wees (asook een administrateur).
+Gestel die resultate van die ordeningsrondte as volg is (die eerste ry toon hoe deelnemer A ander deelnemers georder het ens.):
+
+|.|A|B|C|D|E|
+|-|-|-|-|-|-|
+|A|x|2|1|4|3|
+|B|2|x|1|3|4|
+|C|2|1|x|4|3|
+|D|4|1|2|x|2|
+|E|3|2|1|4|x|
+|---|
+|.|11|6|5|15|12|
+
+Dan sal deelnemers D, E en A die besluitnemende deelnemers vir die projek word, met deelnemer B die administrateur.
+
+## Verdeling van projekwinste
+
+Die twee hoofvorms van bydraes tot 'n projek is besluitneming en tyd. Dienooreenkomstig moet winste wat voortvloei uit 'n projek verdeel word tussen besluitneming en tyd-bydraes.
+In terme van die huidige dominante bestuursmodel stem dit rofweg ooreen met die verskillende vlakke van vergoeding tussen bestuur en nie-bestuur werknemers.
+Dit verskil egter in dat alle deelnemers 'n mate van besluitnemede vergoeding ontvang, en alle deelnemers wat tyd bydrae (insluitend besluitnemende lede) vergoed word vir hul tyd.
+Hierdie verdeling word aanvanklik vasgestel tot 'n **50:50** verdeling tussen besluitneming en tyd-bydraes.
+Die tyds-bydrae komponent word verdeel tussen die deelnemers na gelang van tyd-bydrae rekords (gekontroleer deur die administrateur en goedgekeur deur die besluitnemende deelnemers).
+Die aanvanklike aanname is dat almal se tyd ewe werd is, sodat die verdeling eenvoudig geskied in proporsie met die totale hoeveelheid tyd begedrae deur elke deelnemer in elke periode.
+Die besluitnemings komponent word verdeel tussen deelnemers na gelang van die resultate van die ordeningsproses.
+As 'n beginpunt sal die verdeling geskeid in direkte proporsie met die aantal punte verwerf deur elke deelnemer in die ordeningsrondte. Let daarop dat alle deelnemers (nie slegs die besluitnemede lede nie) deel in die besluitnemings komponent.
+Al die verdelings koerse/parameters hierbo kan slegs verander word met die meerderheids ooreenstemming van beide die besluitnemende deelnemers asook die algehele deelnemers groep (twee stappe van goedkeuring).
+Hierdie stelsel is ver van ideaal aangesien almal se tyd nie ewe veel werd is nie (sommige mense is meer bekwaam as ander) en aangesien die ordeningsproses inherent subjektief is.
+Die twee komponente is egter so ontwerp om mekaar uit te komplementeer. Die tydsverdeling skep 'n gelyke, egalitariese basis vir verdeing, terwyl die besluitnemings komponent erkenning gee aan die deelnemers wat meer effektief of hoer kwaliteit bydraes maak as ander.
+
